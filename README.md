@@ -29,7 +29,7 @@ Tips
 * Archlinux
 
         $git clone https://github.com/xdlinux/xdba-thesis.git
-        $pacman -Sy texlive-most texlive-lang
+        #pacman -Sy texlive-most texlive-lang
         $yaourt -Sy ttf-adobe-fangsong ttf-adobe-heiti ttf-adobe-kaiti ttf-adobe-song   
         本科    
         $xelatex template-utf8.tex     
@@ -39,10 +39,12 @@ Tips
 * Debian
 
         $git clone https://github.com/xdlinux/xdba-thesis.git   
-        $apt-get install texlive-full    
-        $%install adobe fonts%    
+        #apt-get install texlive-full    
+        $wget http://gthemes-china.googlecode.com/files/Adobe{Fangsong,Heiti,Kaiti,Song}Std.tar.gz 
+        $ls Adobe*.tar.gz | xargs -i tar -zxf {}
+        #mkdir /usr/share/fonts/Adobe && cp *.otf /usr/share/fonts/Adobe/.
         本科    
-        $xelatex template-utf8.tex      
+        $xelatex template-utf8.tex
         研究生   
         $xelatex template-master-utf8.tex 
 
