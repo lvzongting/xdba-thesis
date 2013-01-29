@@ -26,22 +26,25 @@ Tips
 
 使用方法
 ----
-* Archlinux 
-    $git clone https://github.com/xdlinux/xdba-thesis.git
-    $pacman -Sy texlive-most texlive-lang
-    $yaourt -Sy ttf-adobe-fangsong ttf-adobe-heiti ttf-adobe-kaiti ttf-adobe-song
-    本科
-    $xelatex template-utf8.tex
-    研究生
-    $xelatex template-master-utf8.tex 
+* Archlinux
+
+        $git clone https://github.com/xdlinux/xdba-thesis.git
+        $pacman -Sy texlive-most texlive-lang
+        $yaourt -Sy ttf-adobe-fangsong ttf-adobe-heiti ttf-adobe-kaiti ttf-adobe-song   
+        本科    
+        $xelatex template-utf8.tex     
+        研究生    
+        $xelatex template-master-utf8.tex 
+    
 * Debian
-    $git clone https://github.com/xdlinux/xdba-thesis.git
-    $apt-get install texlive-full
-    $%install adobe fonts%
-    本科
-    $xelatex template-utf8.tex  
-    研究生
-    $xelatex template-master-utf8.tex 
+
+        $git clone https://github.com/xdlinux/xdba-thesis.git   
+        $apt-get install texlive-full    
+        $%install adobe fonts%    
+        本科    
+        $xelatex template-utf8.tex      
+        研究生   
+        $xelatex template-master-utf8.tex 
 
 
 License 协议
