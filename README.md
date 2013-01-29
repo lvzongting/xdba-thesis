@@ -24,6 +24,26 @@ Tips
 * Use it or not, it better to make contribution for others;
 * Welcome to report bug;
 
+使用方法
+----
+* Archlinux 
+  $git clone https://github.com/xdlinux/xdba-thesis.git
+  $pacman -Sy texlive-most texlive-lang
+  $yaourt -Sy ttf-adobe-fangsong ttf-adobe-heiti ttf-adobe-kaiti ttf-adobe-song
+  本科
+  $xelatex template-utf8.tex
+  研究生
+  $xelatex template-master-utf8.tex 
+* Debian
+  $git clone https://github.com/xdlinux/xdba-thesis.git
+  $apt-get install texlive-full
+  $%install adobe fonts%
+  本科
+  $xelatex template-utf8.tex  
+  研究生
+  $xelatex template-master-utf8.tex 
+
+
 License 协议
 ---
 本宏包是按照GNU LGPL协议授权分发的自由软件,在使用本宏包时，您的可以：
