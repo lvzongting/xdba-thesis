@@ -47,7 +47,8 @@ Tips
         $xelatex template-utf8.tex
         研究生   
         $xelatex template-master-utf8.tex 
-
+* realtime.sh 
+  这是一个简单的脚本，一旦检测到某些tex发生变化了就重新编译一遍这个配合pdf阅读器的自动reload和编辑器的自动保存可以近似的实现实时效果，以后有机会再加入synctex就可以仿冒的实现所见即所得的latex编译器了。
 
 License 协议
 ---
